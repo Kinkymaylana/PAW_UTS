@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0e68c, #28a745);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.flower-detail img {
+    width: auto;
+    max-width: 300px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Agar gambar berada di tengah */
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #218838;
+}

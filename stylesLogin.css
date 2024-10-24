@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0e68c, #28a745);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 1rem;
+}
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0 0.2rem;
+    color: #333;
+    font-weight: bold;
+}
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.login-container input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #218838;
+}
+.error-message {
+    color: #d9534f;
+    margin-bottom: 1rem;
+}
+.register-wrapper {
+    margin-top: 1rem;
+    text-align: center;
+}
+.register-wrapper span {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+.register-button {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    font-size: 0.9rem;
+}
+.register-button:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 2rem;
+        border-radius: 12px;
+    }
+    .login-container {
+        max-width: 45%;
+        text-align: left;
+        margin-right: 2rem;
+    }
+    .right-side {
+        display: block;
+        max-width: 45%;
+        text-align: left;
+        margin-left: 2rem;
+        color: #333;
+    }
+    .right-side h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #28a745;
+    }
+    .right-side p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+}
